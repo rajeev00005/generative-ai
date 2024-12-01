@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+header{
+    background-image: linear-gradient(180deg,#c4b6fd,#93acfc);
+}
+.navbar-brand{
+    color:blue;
+    font-size: 2em;
+    font-weight: 500;
+}
+.nav-link{
+    font-weight: 400;
+    color: black;
+}
+.btn-primary{
+    background-color: #0a58ca !important;
+    border: none;
+    
+}
+.btn-primary:hover{
+    background-color: #033cfa !important;
+}
+.nav-link:hover{
+    color: #0a58ca;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.blue-bg{
+    background-color: #0a58ca;
+    color: #fff;
+}
+.text-primary{
+    color: #257dfd;
+}
+.introimg{
+    width: 500px;
+    height: 500px;
+}
+.card{
+    max-width: 26rem;
+    max-height: 26rem;
+}
+.card img{
+    width: 24rem;
+    height: 18rem;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    transform: scale(1.05);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover h3 {
+    color: #007bff;  
+    transition: color 0.3s ease;
+}
+
+.gen-btn{
+    margin-left: 24rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: #0a58ca;
+    color: white;
+}
+
+.consec{
+    background-color:#93acfc;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+
+/* For small screens (phones) */
+@media (max-width: 576px) {
+    .logo {
+        width: 100px; /* Adjust logo size */
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        margin: 10px auto;
+    }
+}
+
+/* For medium screens (tablets) */
+@media (max-width: 768px) {
+    .hero img {
+        max-width: 80%;
+    }
+
+    .introimg {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
